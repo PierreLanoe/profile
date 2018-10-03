@@ -1,0 +1,120 @@
+/* Colors and Fonts */
+
+body{
+  background: #F7F7EF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color:  rgba(110, 110, 110, 0.9);
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+h1, h2, h3{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  color: #72B01D;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+h2{
+  font-size: 22px;
+  font-weight: 300;
+}
+
+h3{
+  font-size: 20px;
+  font-weight: 300;
+}
+
+a{
+  color: rgb(50, 50, 50);
+  text-decoration: none;
+  font-size: 25px
+}
+
+a:hover{
+  color: #72B01D;
+  text-decoration: none;
+}
+
+table{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+img{
+  width: : 300px;
+  height: 300px;
+  border-radius: 5%;
+  border-color: black;
+}
+
+th{
+  font-weight: 400;
+  color: #72B01D;
+  font-size: 23px;
+}
+
+.container{
+  width: 900px;
+  margin: 30px auto;
+}
+
+.shadowed{
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5)
+}
+
+.card{
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.text-center{
+  text-align: center;
+}
+
+.flag{
+  width: 30px;
+  height: 20px;
+}
+
+.list-inline{
+  padding-left: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.btn-green{
+  background-color: #72B01D;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.btn-green:hover{
+  background-color: #72B099;
+  color: white;
+}
+
+#btn{
+  color: white;
+  text-decoration: none;
+  font-size: 17px
+}
+
+#profile-pic{
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+}
